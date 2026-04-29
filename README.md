@@ -4,11 +4,11 @@
 
 | Campo       | Detalle                                  |
 |-------------|------------------------------------------|
-| **Materia**  | Bases de Datos / Programación Web        |
-| **Profesor** | (nombre del profesor)                    |
-| **Alumno**   | (tu nombre completo)                     |
+| **Materia**  | Aplicaciones con Base de Datos           |
+| **Profesor** | Jesús Alejandro Flores Hernández         |
+| **Alumno**   | Alejandro del Jesús Díaz López           |
 | **Carrera**  | Ingeniería en Sistemas Computacionales   |
-| **Fecha**    | Abril 2026                               |
+| **Fecha**    | 1 de mayo del 2026                       |
 
 ---
 
