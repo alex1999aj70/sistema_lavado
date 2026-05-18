@@ -1,4 +1,4 @@
-# 🚗 Sistema de Lavado de Autos — Backend API
+#  Sistema de Lavado de Autos — Backend API
 
 ## Información del Proyecto
 
@@ -97,7 +97,7 @@ Base URL: `http://localhost:3000/api/v1`
 
 ---
 
-### 🔐 ROL
+###  ROL
 
 | Método | Endpoint       | Descripción              |
 |--------|----------------|--------------------------|
@@ -114,7 +114,7 @@ Base URL: `http://localhost:3000/api/v1`
 
 ---
 
-### 👤 USUARIO
+###  USUARIO
 
 | Método | Endpoint         | Descripción                 |
 |--------|------------------|-----------------------------|
@@ -135,7 +135,7 @@ Base URL: `http://localhost:3000/api/v1`
 
 ---
 
-### 🧑 CLIENTE
+###  CLIENTE
 
 | Método | Endpoint        | Descripción                 |
 |--------|-----------------|-----------------------------|
@@ -156,7 +156,7 @@ Base URL: `http://localhost:3000/api/v1`
 
 ---
 
-### 🗂️ CATEGORÍA DE SERVICIO
+###  CATEGORÍA DE SERVICIO
 
 | Método | Endpoint          | Descripción                    |
 |--------|-------------------|--------------------------------|
@@ -173,7 +173,7 @@ Base URL: `http://localhost:3000/api/v1`
 
 ---
 
-### 🧼 SERVICIO
+###  SERVICIO
 
 | Método | Endpoint        | Descripción                  |
 |--------|-----------------|------------------------------|
@@ -195,7 +195,7 @@ Base URL: `http://localhost:3000/api/v1`
 
 ---
 
-### 📅 CITA
+###  CITA
 
 | Método | Endpoint    | Descripción               |
 |--------|-------------|---------------------------|
@@ -217,7 +217,7 @@ Base URL: `http://localhost:3000/api/v1`
 
 ---
 
-### 📋 DETALLE DE CITA
+###  DETALLE DE CITA
 
 | Método | Endpoint                        | Descripción                        |
 |--------|---------------------------------|------------------------------------|
@@ -237,7 +237,7 @@ Base URL: `http://localhost:3000/api/v1`
 
 ---
 
-### 💳 PAGO
+###  PAGO
 
 | Método | Endpoint    | Descripción              |
 |--------|-------------|--------------------------|
