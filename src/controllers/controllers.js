@@ -1,6 +1,6 @@
 import pool from '../db/connection.js';
 
-// ─── ROL ────────────────────────────────────────────────────────────────────
+//  ROL 
 export const getRoles = async (req, res) => {
   const [rows] = await pool.query('SELECT * FROM ROL');
   res.json(rows);
@@ -25,7 +25,7 @@ export const deleteRol = async (req, res) => {
   res.json({ message: 'Rol eliminado' });
 };
 
-// ─── USUARIO ─────────────────────────────────────────────────────────────────
+//  USUARIO 
 export const getUsuarios = async (req, res) => {
   const [rows] = await pool.query(
     `SELECT u.idUsuario, u.nombre_usuario, r.nombre_rol
@@ -62,7 +62,7 @@ export const deleteUsuario = async (req, res) => {
   res.json({ message: 'Usuario eliminado' });
 };
 
-// ─── CLIENTE ──────────────────────────────────────────────────────────────────
+//  CLIENTE 
 export const getClientes = async (req, res) => {
   const [rows] = await pool.query('SELECT * FROM CLIENTE');
   res.json(rows);
@@ -93,7 +93,7 @@ export const deleteCliente = async (req, res) => {
   res.json({ message: 'Cliente eliminado' });
 };
 
-// ─── CATEGORIA_SERVICIO ───────────────────────────────────────────────────────
+//  CATEGORIA_SERVICIO 
 export const getCategorias = async (req, res) => {
   const [rows] = await pool.query('SELECT * FROM CATEGORIA_SERVICIO');
   res.json(rows);
@@ -118,7 +118,7 @@ export const deleteCategoria = async (req, res) => {
   res.json({ message: 'Categoría eliminada' });
 };
 
-// ─── SERVICIO ─────────────────────────────────────────────────────────────────
+//  SERVICIO 
 export const getServicios = async (req, res) => {
   const [rows] = await pool.query(
     `SELECT s.*, c.nombre_categoria FROM SERVICIO s
@@ -156,7 +156,7 @@ export const deleteServicio = async (req, res) => {
   res.json({ message: 'Servicio eliminado' });
 };
 
-// ─── CITA ─────────────────────────────────────────────────────────────────────
+//  CITA 
 export const getCitas = async (req, res) => {
   const [rows] = await pool.query(
     `SELECT c.*, cl.nombre AS cliente, u.nombre_usuario AS empleado
@@ -198,7 +198,7 @@ export const deleteCita = async (req, res) => {
   res.json({ message: 'Cita eliminada' });
 };
 
-// ─── DETALLE_CITA ─────────────────────────────────────────────────────────────
+//  DETALLE_CITA 
 export const getDetallesByCita = async (req, res) => {
   const [rows] = await pool.query(
     `SELECT dc.*, s.nombre_servicio FROM DETALLE_CITA dc
@@ -221,7 +221,7 @@ export const deleteDetalle = async (req, res) => {
   res.json({ message: 'Detalle eliminado' });
 };
 
-// ─── PAGO ─────────────────────────────────────────────────────────────────────
+//  PAGO 
 export const getPagos = async (req, res) => {
   const [rows] = await pool.query(
     `SELECT p.*, c.fecha_hora AS fecha_cita, cl.nombre AS cliente
